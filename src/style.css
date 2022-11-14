@@ -1,10 +1,14 @@
 * {
-
+    
     text-decoration: "none";
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+body{
+    background-color: black;
 }
 
 header{
@@ -17,15 +21,17 @@ header{
 
     background-color: rgb(204, 8, 11);
     color: white;
-    border-bottom: 2px solid rgb(145, 10, 12);
+    border-bottom: 2px solid rgb(111, 9, 11);
     /* rgb(227, 49, 49) */
+}
+h1{
+    font-weight: bold;
 }
 nav, nav > ul{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    font-weight: bold;
+    text-shadow: 1px;
 }
 nav{
     gap: 2rem;
@@ -33,7 +39,29 @@ nav{
 nav > ul{
     gap: 1rem;
 }
-.reservation{
-    padding: 0.6rem;
-    outline: white solid 2px;
+.delivery-btn{
+    padding: 0.6rem 1rem;
+    outline: white solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#background{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 80vh;
+    background-color: black;
+    background-image: url(img/burguer.jpg);
+    background-size: cover;
+}
+#home-welcome > h2{
+    font-size: 2.3rem;
+}
+#home-welcome{
+    margin: 4rem 6rem;
+    width: 650px;
+    align-self: flex-end;
+
+    color: white;
+
 }
