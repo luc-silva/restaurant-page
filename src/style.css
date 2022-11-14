@@ -1,0 +1,39 @@
+* {
+
+    text-decoration: "none";
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+    padding: 1rem 2.8rem;
+
+    background-color: rgb(204, 8, 11);
+    color: white;
+    border-bottom: 2px solid rgb(145, 10, 12);
+    /* rgb(227, 49, 49) */
+}
+nav, nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+nav{
+    gap: 2rem;
+}
+nav > ul{
+    gap: 1rem;
+}
+.reservation{
+    padding: 0.6rem;
+    outline: white solid 2px;
+}
