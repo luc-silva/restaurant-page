@@ -1,1 +1,1 @@
-alert("ok")
+import './style.css'
