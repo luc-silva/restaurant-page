@@ -24,3 +24,9 @@ run npm init in your project directory to generate a package.json file.
 - Write the tab-switching logic inside of index.js. You should have event listeners for each tab that wipes out the current contents and then runs the correct ‘tab module’ to populate it again.
 
 - If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running webpack the full bundled version of your site is available in the dist folder, but GH pages is looking for an index.html in the root directory of your project.
+
+## Credits
+img: https://unsplash.com/@pwign
+img: https://unsplash.com/@dani_r_photos
+https://unsplash.com/@chumil09
+https://unsplash.com/@f_abrarrr

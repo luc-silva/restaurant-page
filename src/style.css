@@ -17,15 +17,15 @@ header{
     justify-content: space-between;
     position: sticky;
     
-    padding: 1rem 2.8rem;
+    padding: 1rem 5rem;
 
     background-color: rgb(204, 8, 11);
     color: white;
-    border-bottom: 2px solid rgb(111, 9, 11);
+    border-bottom: 3px solid rgb(255, 255, 255);
     /* rgb(227, 49, 49) */
 }
 h1{
-    font-weight: bold;
+    font-weight: bolder;
 }
 nav, nav > ul{
     display: flex;
@@ -38,6 +38,10 @@ nav{
 }
 nav > ul{
     gap: 1rem;
+}
+nav > ul > li> a{
+    text-decoration: none;
+    color: white;
 }
 .delivery-btn{
     padding: 0.6rem 1rem;
@@ -53,6 +57,7 @@ nav > ul{
     background-color: black;
     background-image: url(img/burguer.jpg);
     background-size: cover;
+    background-position: center;
 }
 #home-welcome > h2{
     font-size: 2.3rem;
@@ -64,4 +69,47 @@ nav > ul{
 
     color: white;
 
+}
+
+section{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#menu{
+    background-color: white;
+}
+#menu > h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+.type-container > h3{
+    font-size: 1.8rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+.menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-content > ul > li{
+
+    list-style: disc;
+    list-style-position: outside;
+    width: 800px;
+    margin-bottom: 1rem;
+}
+.menu-item-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.food-type-illustration{
+    /* background-image: url(img/breakfast.jpg);
+    background-size: cover; */
+    background-color: black;
+    width: 200px;
+    height: 280px;
 }
