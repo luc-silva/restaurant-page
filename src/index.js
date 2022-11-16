@@ -1,4 +1,3 @@
-import './style.css'
 import initializeHomepage from './modules/home.js'
 import initializeMenu from './modules/menu.js'
 
