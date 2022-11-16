@@ -5,9 +5,10 @@ function createHomepage(){
     let div = document.createElement("div")
     div.innerHTML = `
     <div id="home-welcome">
-    <h2>Welcome to the Low Carbs Clinic!</h2>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum fuga quia cum quaerat, exercitationem, unde tempore doloribus nemo provident quibusdam pariatur velit perspiciatis assumenda eum, iusto ut quae totam!
+        <h2>Welcome to the Low Carbs Clinic!</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsum fuga quia cum quaerat, exercitationem, unde tempore doloribus nemo provident quibusdam pariatur velit perspiciatis assumenda eum, iusto ut quae totam!
     </div>`
+    
     div.id = "home-background"
 
     page.appendChild(div)
@@ -17,10 +18,9 @@ function createHomepage(){
 
 function initializeHomepage(){
     let body = document.querySelector("#content")
+    body.textContent = ""
     
     let homepage = createHomepage()
-
-    alert(homepage)
 
     body.appendChild(homepage)
 

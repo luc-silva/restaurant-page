@@ -43,14 +43,14 @@ nav > ul > li> a{
     text-decoration: none;
     color: white;
 }
-.delivery-btn{
+#delivery-btn{
     padding: 0.6rem 1rem;
     outline: white solid 1px;
     border-radius: 5px;
     font-weight: bold;
 }
 
-#background{
+#home-background{
     display: flex;
     flex-direction: row-reverse;
     height: 80vh;
@@ -69,11 +69,6 @@ nav > ul > li> a{
 
     color: white;
 
-}
-
-section{
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
 #menu{
@@ -112,4 +107,14 @@ section{
     background-color: black;
     width: 200px;
     height: 280px;
+}
+
+#about-us{
+    display: flex;
+}
+#about-us-container{
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
 }

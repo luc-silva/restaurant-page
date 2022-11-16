@@ -2,9 +2,10 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "Restaurant page project",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
