@@ -55,7 +55,7 @@ nav > ul > li> a{
     flex-direction: row-reverse;
     height: 80vh;
     background-color: black;
-    background-image: url(img/burguer.jpg);
+    background-image: url(../src/img/burguer.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -116,15 +116,71 @@ nav > ul > li> a{
 
 #about-us{
     display: flex;
+    flex-direction: row;
+    height: 86.5vh;
+    background-color: white;
 }
 #about-us-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
+    width: 60%;
+    padding: 1.5rem;
+    
+    background-color: whitesmoke;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.183);
+}
+#about-us-container > div{
+    margin-bottom: 2rem;
+}
+#about-us-info > h2{
+    margin-bottom: 0.5rem;
+}
+#about-us-location-list > ul >li{
+    list-style: circle;
+    list-style-position: inside;
+}
+#about-us-img{
+    width: 40%;
 
-    background-color: white;
+    border-radius: 5px;
+
+    background-image: url(../src/img/map.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#menu{
+#delivery-reservation{
+    background-color: white;
+
+}
+#delivery{
+    display: flex;
+    flex-direction: column;
+}
+#delivery > input{
+    width: 50%;
+}
+#reservation{
+
+}
+#reservation-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.reservation-card{
+    width: 48%;
+    height: 6rem;
+    background-color: red;
+}
+
+#menu, #about-us, #delivery-reservation{
     padding-left: 5rem;
     padding-right: 5rem;
 }

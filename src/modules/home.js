@@ -19,7 +19,7 @@ function createHomepage(){
 function initializeHomepage(){
     let body = document.querySelector("#content")
     body.textContent = ""
-    
+
     let homepage = createHomepage()
 
     body.appendChild(homepage)

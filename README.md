@@ -26,7 +26,5 @@ run npm init in your project directory to generate a package.json file.
 - If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running webpack the full bundled version of your site is available in the dist folder, but GH pages is looking for an index.html in the root directory of your project.
 
 ## Credits
-img: https://unsplash.com/@pwign
-img: https://unsplash.com/@dani_r_photos
-https://unsplash.com/@chumil09
-https://unsplash.com/@f_abrarrr
+images: 
+- [@pwign](https://unsplash.com/@pwign), [@dani_r](https://unsplash.com/@dani_r_photos), [@chumil](https://unsplash.com/@chumil09), [@f_abrarrr](https://unsplash.com/@f_abrarrr), [@noe_kf](https://unsplash.com/@noe_kf)
