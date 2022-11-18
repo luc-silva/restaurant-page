@@ -6,9 +6,15 @@
     margin: 0;
     list-style: none;
 }
+:root{
+    --mainColor: rgb(204, 8, 11);
+}
 
 body{
     background-color: black;
+}
+input:focus{
+    outline: none;
 }
 
 header{
@@ -19,7 +25,7 @@ header{
     
     padding: 1rem 5rem;
 
-    background-color: rgb(204, 8, 11);
+    background-color: var(--mainColor);
     color: white;
     border-bottom: 3px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
@@ -111,7 +117,7 @@ nav > ul > li> a{
 }
 .price{
     font-weight: bolder;
-    color: rgb(204, 8, 11);
+    color: var(--mainColor);
 }
 
 #about-us{
@@ -152,17 +158,72 @@ nav > ul > li> a{
 
 #delivery-reservation{
     background-color: white;
-
 }
-#delivery{
+#section-picture{
+    width: 100%;
+    height: 18rem;
+    background-color: black;
+    background-image: url(../src/img/delivery.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+#delivery-container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--mainColor);
+    padding : 2rem 1rem;
+    box-sizing: content-box;
+}
+#delivery-text{
+    padding: 1rem;
+    width: 60%;
+    color: white;
+}
+#delivery-text > h2{
+    
+}
+#delivery-input{
+    width: 40%;
+
     display: flex;
     flex-direction: column;
+
 }
-#delivery > input{
-    width: 50%;
+#delivery-input > input, #contact-reservation > input{
+    width: 70%;
+    border: none;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+
+
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: var(--mainColor);
+}
+#delivery-input > button{
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    width: 75%;
+
+    background-color: var(--mainColor);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+#delivery-input > input::placeholder, #contact-reservation > input::placeholder{
+    color: white;
+    font-weight: bolder;
 }
 #reservation{
-
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.345);
+    padding: 1rem;
+}
+#reservation > h2{
+    color: var(--mainColor);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 #reservation-card-container{
     display: flex;
@@ -175,12 +236,47 @@ nav > ul > li> a{
     width: 100%;
 }
 .reservation-card{
+    display: flex;
     width: 48%;
-    height: 6rem;
-    background-color: red;
+    height: 10rem;
+}
+.card-image{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+.card-description{
+    padding: 5px;
+    width: 60%;
 }
 
-#menu, #about-us, #delivery-reservation{
+#contact-reservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    height: 6rem;
+
+    background-color: var(--mainColor);
+    color: white;
+}
+#contact-reservation > input{
+    width: 60%;
+    height: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 0;
+
+}
+#contact-reservation > em{
+    margin-left: 1rem;
+}
+
+#menu, #about-us, #delivery-reservation, #contact-reservation{
     padding-left: 5rem;
     padding-right: 5rem;
 }
