@@ -19,4 +19,4 @@ let header = (function(){
 
 })()
 
-//initializeHomepage()
+initializeHomepage()

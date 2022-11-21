@@ -1,6 +1,6 @@
 function createDeliveryPage(){
     let deliverySection = document.createElement("section")
-    deliverySection.id = "delivery-reservation"
+    deliverySection.id = "delivery-section"
 
     let sectionImage = document.createElement("div")
     sectionImage.id = "section-picture"

@@ -59,7 +59,7 @@ nav > ul > li> a{
 #home-background{
     display: flex;
     flex-direction: row-reverse;
-    height: 80vh;
+    height: 100vh;
     background-color: black;
     background-image: url(../src/img/burguer.jpg);
     background-size: cover;
@@ -156,7 +156,7 @@ nav > ul > li> a{
     background-position: center;
 }
 
-#delivery-reservation{
+#delivery-section{
     background-color: white;
 }
 #section-picture{
@@ -276,7 +276,7 @@ nav > ul > li> a{
     margin-left: 1rem;
 }
 
-#menu, #about-us, #delivery-reservation, #contact-reservation{
+#menu, #about-us, #delivery-section, #contact-reservation{
     padding-left: 5rem;
     padding-right: 5rem;
 }
