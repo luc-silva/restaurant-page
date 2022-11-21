@@ -14,8 +14,10 @@ function createHomepageSection(tableArray){
     reservationContainer.id = "reservation"
 
     let title = document.createElement("h2")
-    title.textContent = "Make your reservation: "
+    title.textContent = "Choose a seat and make your reservation: "
     reservationContainer.appendChild(title)
+
+    
 
     let cardContainer = document.createElement("div")
     cardContainer.id = "reservation-card-container"
@@ -50,10 +52,10 @@ function initializeHomepage(){
     let body = document.querySelector("#content")
     body.textContent = ""
 
-    let tableOptions = [{item: "Alone", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/twoseattable.jpg"},
-    {item: "Alone", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/twoseattable.jpg"},
-    {item: "Alone", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/twoseattable.jpg"},
-    {item: "Alone", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/twoseattable.jpg"},]
+    let tableOptions = [{item: "Alone", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/oneseattable.jpg"},
+    {item: "2 seats", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/twoseattable.jpg"},
+    {item: "4 seats", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/fourseattable.jpg"},
+    {item: "Multiple seats", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptas, repellendus, dolorum iste aliquam reiciendis dolore amet cupiditate magnam inventore accusantium saepe animi exercitationem? Molestiae excepturi deleniti natus quasi nulla?", image: "../src/img/specialtable.jpg"},]
 
     let homepage = createHomepageSection(tableOptions)
 

@@ -11,9 +11,10 @@ function createMenu(){
         <div id="about-us-location-list">
             <h3>You can find us at:</h3>
             <ul>
-                <li>Avenue Washington Luiz - 989</li>
-                <li>Avenue Washington Luiz - 989</li>
-                <li>Avenue Washington Luiz - 989</li>
+                <li>1232 Oysterdale Rd - Pennsylvania</li>
+                <li>1641 N State St - Utah</li>
+                <li>5100 Curry Hwy - Alaska</li>
+                <li>800 Greenwood Ave - North Dakota</li>
             </ul>
         </div>
     </div>

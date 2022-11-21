@@ -1,4 +1,4 @@
-function createMenuSection(title, optionArray){
+function createMenuSection(title, optionArray, image){
     let container = document.createElement("div")
     container.classList.add("type-container")
 
@@ -10,8 +10,9 @@ function createMenuSection(title, optionArray){
     let menuContent = document.createElement("div")
     menuContent.classList.add("menu-content")
 
-    let image = document.createElement("div")
-    image.classList.add("food-type-illustration")
+    let imageElement = document.createElement("img")
+    imageElement.src = image
+    imageElement.classList.add("food-type-illustration")
     
     let ul = document.createElement("ul")
 
@@ -25,33 +26,34 @@ function createMenuSection(title, optionArray){
         </li>`
     });
     menuContent.appendChild(ul)
-    menuContent.appendChild(image)
+    menuContent.appendChild(imageElement)
 
     container.appendChild(menuContent)
     return container
 }
 
 function createMenu(){
-    let breakfastOption = [{foodName:"Burguer", price:20.40, description:"lorem"},
+    let menuSection = document.createElement('section')
+    menuSection.id = "menu"
+
+    let breakfastOption = [{foodName:"Lorem ipsum", price:20.40, description:"lorem"},
     {foodName:"Burguer", price:20.40, description:"lorem"}, 
     {foodName:"Burguer", price:20.40, description:"lorem"},
     {foodName:"Burguer", price:20.40, description:"lorem"}, 
     {foodName:"Burguer", price:20.40, description:"lorem"},]
 
-    let page = document.createElement('section')
-    page.id = "menu"
 
     let pageTitle = document.createElement("h2")
     pageTitle.textContent = "DISHES"
 
 
 
-    page.appendChild(pageTitle)
-    page.appendChild(createMenuSection("Breakfast" , breakfastOption))
-    page.appendChild(createMenuSection("Lunch" , breakfastOption))
-    page.appendChild(createMenuSection("Dinner" , breakfastOption))
+    menuSection.appendChild(pageTitle)
+    menuSection.appendChild(createMenuSection("Breakfast" , breakfastOption, "../src/img/breakfast.jpg"))
+    menuSection.appendChild(createMenuSection("Lunch" , breakfastOption, "../src/img/lunch.jpg"))
+    menuSection.appendChild(createMenuSection("Dinner" , breakfastOption, "../src/img/dinner.jpg"))
 
-    return page
+    return menuSection
 }
 
 function initializeMenu(){
