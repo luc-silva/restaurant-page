@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import ReservationCard from "./reservartion-card";
+import ReservationCard from "./reservation-card";
 
 class Reservation extends Component {
     constructor(props) {
         super(props);
-        this.options = [
+    }
+
+    render() {
+        let options = [
             {
                 imgSrc: "../src/img/oneseattable.jpg",
                 title: "Alone",
@@ -46,15 +49,19 @@ class Reservation extends Component {
             deleniti natus quasi nulla?`,
             },
         ];
-    }
-
-    render() {
         return (
             <div id="reservation">
                 <h2>Choose a seat and make your reservation: </h2>
-                {this.options.map((item, index) => {
-                    <ReservationCard key={index} option={item} />;
-                })}
+                <div id="reservation-card-container">
+                {options.map((item, index) => (
+                    <ReservationCard
+                        key={index}
+                        title={item.title}
+                        imgSrc={item.imgSrc}
+                        description={item.description}
+                    />
+                ))}
+                </div>
             </div>
         );
     }

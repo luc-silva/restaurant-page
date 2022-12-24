@@ -5,12 +5,13 @@ class ReservationCard extends Component {
         super(props);
     }
     render() {
+        console.log(this.props.option)
         return (
             <div className="reservation-card">
-                <img src={this.props.option.imgSrc} className="card-image" />
-                <div class="card-description">
-                    <h3>{this.props.option.title}</h3>
-                    <p>{this.props.option.description}</p>
+                <img src={this.props.imgSrc} className="card-image" />
+                <div className="card-description">
+                    <h3>{this.props.title}</h3>
+                    <p>{this.props.description}</p>
                 </div>
             </div>
         );
