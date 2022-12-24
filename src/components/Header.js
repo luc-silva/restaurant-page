@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HeaderLinkPanel from "./HeaderLinkPanel";
 
 class Header extends Component {
     constructor(props) {
@@ -10,12 +11,7 @@ class Header extends Component {
             <header>
                 <h1>Dr. Low Carb</h1>
                 <nav>
-                    {/* inserir Component */}
-                    <ul>
-                        <li id="home-btn"> HOME </li>
-                        <li id="menu-btn"> DISHES </li>
-                        <li id="about-btn"> ABOUT US </li>
-                    </ul>
+                    <HeaderLinkPanel />
                     <span id="delivery-btn">DELIVERY & RESERVATION</span>
                 </nav>
             </header>
