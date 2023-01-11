@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AboutUsContainer from "./AboutUsContainer";
+import {AboutUsContainer} from "./AboutUsContainer";
 
 export const AboutUs = () => {
     return (
