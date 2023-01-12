@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+//import image from '../../img/lunch.jpg'
 
-export const ReservationCard = ({imgSrc, title, description}) => {
+export const ReservationCard = ({ imgSrc, title, description }) => {
+   let image = require("../../img/" + `${imgSrc}`)
     return (
         <div className="reservation-card">
-            <img src={imgSrc} className="card-image" />
+            <img src={image} className="card-image" />
             <div className="card-description">
                 <h3>{title}</h3>
                 <p>{description}</p>
@@ -11,4 +13,3 @@ export const ReservationCard = ({imgSrc, title, description}) => {
         </div>
     );
 };
-

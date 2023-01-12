@@ -17,6 +17,10 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ["babel-loader"],
             },
+            {
+                test: /\.(png|jpg|jpeg|gif)$/i,
+                type: "asset/resource",
+            },
         ],
     },
 };
