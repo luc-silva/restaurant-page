@@ -72,7 +72,7 @@ export const Home = () => {
                 </div>
             </div>
             <div className={styles["contact-reservation"]}>
-                <input type=" email" placeholder="Email" />
+                <input className={styles["contact-input"]} type="email" placeholder="Email" />
                 <em> We'll contact you when your reservation is prepared!</em>
             </div>
         </section>

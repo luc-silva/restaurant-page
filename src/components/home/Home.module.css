@@ -49,39 +49,36 @@
 
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
     height: 6rem;
 
     background-color: var(--mainColor);
     color: white;
 }
-/* .contact-reservation > input{
+.contact-input{
     width: 60%;
     height: 1rem;
     border: 1px solid white;
     border-radius: 5px;
-    margin-bottom: 0;
-    padding-left: 5rem;
-    padding-right: 5rem;
-
-} */
-.contact-reservation > em{
-    margin-left: 1rem;
-}
-
-.contact-reservation > input {
-    width: 70%;
-    border: none;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-
-
+    padding: 0.5rem;    
     color: white;
-    border-bottom: 2px solid white;
     background-color: var(--mainColor);
+
 }
-.contact-reservation > input::placeholder{
+.contact-input::placeholder{
     color: white;
     font-weight: bolder;
 }
 
+.contact-input:focus{
+    color: var(--mainColor);
+    background-color: white;
+    font-weight: bolder;
+    border-color: var(--mainColor);
+    outline: white solid 1px;
+}
+.contact-reservation > em{
+    margin-left: 1rem;
+}
