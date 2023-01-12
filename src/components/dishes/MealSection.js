@@ -1,6 +1,7 @@
 import { SectionItem } from "./SectionItem";
 
-export const MealSection = ({ title, dishes, image }) => {
+export const MealSection = ({ title, dishes, imgSrc }) => {
+    let image = require("../../img/" + `${imgSrc}`)
     return (
         <div className="type-container">
             <h3>{title}</h3>
