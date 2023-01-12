@@ -1,0 +1,20 @@
+.reservation-card{
+    display: flex;
+    width: 48%;
+    height: 10rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.reservation-card:hover{
+    background-color: rgb(230, 230, 230);
+}
+.card-image{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+}
+.card-description{
+    padding: 8px;
+    width: 60%;
+}

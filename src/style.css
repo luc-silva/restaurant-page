@@ -24,73 +24,12 @@ body{
     z-index: 0;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    
-    padding: 1rem 5rem;
-
-    background-color: var(--mainColor);
-    color: white;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
-}
-h1{
-    font-weight: bolder;
-}
-nav, nav > ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 1px;
-}
-nav{
-    gap: 2rem;
-}
-nav > ul{
-    gap: 1rem;
-}
-nav > ul > li> a{
-    text-decoration: none;
-    color: white;
-}
-#delivery-btn{
-    padding: 0.6rem 1rem;
-    outline: white solid 1px;
-    border-radius: 5px;
-    font-weight: bold;
-}
 
 #content{
     position: relative;
     z-index: 0;
 }
 
-#home-background{
-    display: flex;
-    flex-direction: row-reverse;
-
-    height: 100vh;
-    background-color: black;
-    background-image: url(../src/img/burguer.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#home-welcome > h2{
-    font-size: 2.3rem;
-}
-#home-welcome{
-    margin: 4rem 6rem;
-    width: 650px;
-    align-self: flex-end;
-
-    color: white;
-
-}
 
 #menu{
     background-color: white;
@@ -206,7 +145,7 @@ nav > ul > li> a{
     flex-direction: column;
 
 }
-#delivery-input > input, #contact-reservation > input{
+#delivery-input > input{
     width: 70%;
     border: none;
     margin-bottom: 0.5rem;
@@ -227,79 +166,12 @@ nav > ul > li> a{
     border-radius: 5px;
     color: white;
 }
-#delivery-input > input::placeholder, #contact-reservation > input::placeholder{
+#delivery-input > input::placeholder{
     color: white;
     font-weight: bolder;
 }
-#reservation{
-    background-color: whitesmoke;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.345);
-    padding: 1rem;
-}
-#reservation > h2{
-    color: var(--mainColor);
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-#reservation-card-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-}
-.reservation-card{
-    display: flex;
-    width: 48%;
-    height: 10rem;
-    border-radius: 5px;
-    overflow: hidden;
-}
-.reservation-card:hover{
-    background-color: rgb(230, 230, 230);
-}
-.card-image{
-    width: 40%;
-    height: 100%;
-    background-color: black;
-    background-size: cover;
-}
-.card-description{
-    padding: 8px;
-    width: 60%;
-}
-
-#contact-reservation{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-
-    height: 6rem;
-
-    background-color: var(--mainColor);
-    color: white;
-}
-#contact-reservation > input{
-    width: 60%;
-    height: 1rem;
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-bottom: 0;
-
-}
-#contact-reservation > em{
-    margin-left: 1rem;
-}
-
-#menu, #about-us, #delivery-section, #contact-reservation{
+#menu, #about-us, #delivery-section {
     padding-left: 5rem;
     padding-right: 5rem;
 }

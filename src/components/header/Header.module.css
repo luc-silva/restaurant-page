@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    
+    padding: 1rem 5rem;
+
+    background-color: var(--mainColor);
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
+}
+h1{
+    font-weight: bolder;
+}
+nav, nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px;
+}
+nav{
+    gap: 2rem;
+}
+nav > ul{
+    gap: 1rem;
+}
+nav > ul > li> a{
+    text-decoration: none;
+    color: white;
+}
+#delivery-btn{
+    padding: 0.6rem 1rem;
+    outline: white solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+}
