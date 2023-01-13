@@ -7,7 +7,7 @@ import styles from "./Header.module.css"
 export const Header = () => {
     return (
         <header>
-            <h1>Dr. Low Carb</h1>
+        <h1 className={styles["logo"]}>Dr. Low Carb</h1>
             <nav>
                 <HeaderLinkPanel />
                 <span className={styles["delivery-btn"]}><Link to="/delivery">DELIVERY & RESERVATION</Link></span>

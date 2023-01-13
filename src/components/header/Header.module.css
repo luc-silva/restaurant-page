@@ -2,18 +2,20 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     z-index: 1;
     top: 0;
     
-    padding: 1rem 5rem;
+    height: 12vh;
+    padding: 0 5rem;
 
-    background-color: var(--mainColor);
+    background-color: var(--red);
     color: white;
     border-bottom: 3px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.237);
 }
-h1{
+.logo{
     font-weight: bolder;
 }
 nav, nav > ul{
@@ -32,8 +34,9 @@ nav > ul > li> a{
     text-decoration: none;
     color: white;
 }
-#delivery-btn{
+.delivery-btn{
     padding: 0.6rem 1rem;
+    color: white;
     outline: white solid 1px;
     border-radius: 5px;
     font-weight: bold;
