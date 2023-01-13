@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row-reverse;
 
-    height: 100vh;
+    height: 88vh;
     background-color: black;
     background-image: url(../../img/burguer.jpg);
     background-size: cover;
@@ -25,7 +25,7 @@
     padding: 1rem;
 }
 .reservation > h2{
-    color: var(--mainColor);
+    color: var(--red);
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -54,7 +54,7 @@
 
     height: 6rem;
 
-    background-color: var(--mainColor);
+    background-color: var(--red);
     color: white;
 }
 .contact-input{
@@ -64,7 +64,7 @@
     border-radius: 5px;
     padding: 0.5rem;    
     color: white;
-    background-color: var(--mainColor);
+    background-color: var(--red);
 
 }
 .contact-input::placeholder{
@@ -73,11 +73,10 @@
 }
 
 .contact-input:focus{
-    color: var(--mainColor);
+    color: var(--red);
     background-color: white;
     font-weight: bolder;
-    border-color: var(--mainColor);
-    outline: white solid 1px;
+    border-color: var(--red);
 }
 .contact-reservation > em{
     margin-left: 1rem;

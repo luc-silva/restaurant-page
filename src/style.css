@@ -4,16 +4,21 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 :root{
-    --mainColor: rgb(204, 8, 11);
+    --red: rgb(176, 8, 11);
+    --gray: rgb(75, 75, 75);
+
+}
+a:visited{
+    color: white;
 }
 
 input:focus{
     outline: none;
 }
 body{
-    background-color: black;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -31,48 +36,7 @@ body{
 }
 
 
-#menu{
-    background-color: white;
-}
-#menu > h2 {
-    text-align: center;
-    font-size: 3rem;
-}
-.type-container > h3{
-    font-size: 1.8rem;
-    color: rgb(75, 75, 75);
-    border-bottom: 1px solid rgb(75, 75, 75);
-    margin-bottom: 1rem;
-}
-.menu-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu-content > ul > li{
 
-    list-style: disc;
-    list-style-position: outside;
-    width: 780px;
-    margin-bottom: 1rem;
-}
-.menu-item-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.food-type-illustration{
-    /* background-image: url(img/breakfast.jpg);
-    background-size: cover; */
-    background-color: black;
-    width: 200px;
-    height: 280px;
-}
-.price{
-    font-weight: bolder;
-    color: var(--mainColor);
-}
 
 #about-us{
     display: flex;
@@ -128,7 +92,7 @@ body{
 #delivery-container{
     display: flex;
     flex-direction: row;
-    background-color: var(--mainColor);
+    background-color: var(--red);
     padding : 2rem 1rem;
     box-sizing: content-box;
     flex-grow: 1;
@@ -154,14 +118,14 @@ body{
 
     color: white;
     border-bottom: 2px solid white;
-    background-color: var(--mainColor);
+    background-color: var(--red);
 }
 #delivery-input > button{
     padding: 0.5rem 1rem;
     font-weight: bolder;
     width: 75%;
 
-    background-color: var(--mainColor);
+    background-color: var(--red);
     border: 1px solid white;
     border-radius: 5px;
     color: white;
@@ -171,7 +135,7 @@ body{
     font-weight: bolder;
 }
 
-#menu, #about-us, #delivery-section {
+#about-us, #delivery-section {
     padding-left: 5rem;
     padding-right: 5rem;
 }
