@@ -1,0 +1,14 @@
+.menu-item{
+    display: flex;
+    flex-direction: column;
+}
+.menu-item-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    font-weight: bolder;
+    color: var(--red);
+}

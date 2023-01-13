@@ -1,11 +1,13 @@
+import styles from "./SectionItem.module.css"
+
 export const SectionItem = ({ foodName, price, description }) => {
     console.log(foodName, price, description)
     return (
         <li>
-            <span class="menu-item">
-                <div class="menu-item-info">
+            <span className={styles["menu-item"]}>
+                <div className={styles["menu-item-info"]}>
                     <strong>{foodName}</strong>
-                    <span class="price">{price}$</span>
+                    <span className={styles["price"]}>{price}$</span>
                 </div>
                 <p>{description}</p>
             </span>
