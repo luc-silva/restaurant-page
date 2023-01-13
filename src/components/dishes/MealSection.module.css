@@ -1,0 +1,26 @@
+.type-container {
+    margin-bottom: 3rem;
+}
+.type-container > h3{
+    font-size: 1.8rem;
+    color: var(--red);
+    border-bottom: 1px solid rgb(75, 75, 75);
+    margin-bottom: 1rem;
+}
+.menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+}
+.menu-content > ul > li{
+    list-style: disc;
+    margin-bottom: 1rem;
+}
+.food-type-illustration{
+    background-color: black;
+    width: 200px;
+    height: 280px;
+
+}
