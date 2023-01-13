@@ -6,6 +6,7 @@ import { Home } from "./components/home/Home";
 import { Dishes } from "./components/dishes/Dishes";
 import { AboutUs } from "./components/about-us/AboutUs";
 import { Delivery } from "./components/delivery/Delivery";
+import { Footer } from "./components/footer/Footer";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/delivery" element={<Delivery />} />
             </Routes>
+            <Footer />
         </Router>
     );
 };
