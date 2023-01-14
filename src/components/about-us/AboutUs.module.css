@@ -1,4 +1,62 @@
-.about-us {
-    padding-left: 5rem;
-    padding-right: 5rem;
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+.about-us-img{
+    height: 88vh;
+    background-image: url("../../img/restaurant-outside.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-intro{
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.385);
+}
+.about-us-intro p, .about-us-intro h3 {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.541);
+}
+.about-us-intro h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.about-us-intro p {
+    color: white;
+}
+
+.location-region h4 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--red);
+}
+.location-region ul{
+    margin-left: 1rem;
+}
+.location-region ul > li{
+    margin-bottom: 1rem;
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+.location-container-title{
+    color: var(--gray-700);   
+    margin-bottom: 3rem;
+}
+.location-container h3 {
+    color: var(--red);
+    font-size: 2rem;   
+}
+.location, .location-region{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

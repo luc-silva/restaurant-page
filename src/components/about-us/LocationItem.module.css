@@ -1,0 +1,13 @@
+
+.location-region-item > div{
+    border-bottom: 0.5rem;
+}
+.item-state strong{
+    margin-right: 0.5rem;
+    color: var(--red);
+    font-size: 1.2rem;
+}
+.item-state span {
+    font-size: 0.8rem;
+    color: var(--gray-700);
+}
