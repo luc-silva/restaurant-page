@@ -12,6 +12,9 @@
     font-size: 3rem;
     color: var(--red);
 }
+.not-found-page a:visited{
+    color: var(--red);
+}
 .not-found-message{
     display: flex;
     flex-direction: column;
