@@ -1,5 +1,4 @@
-### Restaurant Page Project
-# restaurant_page
+# Restaurant Page Project
 Restaurant page made by me as a project for The Odin Project curriculum.
 
 ## Images

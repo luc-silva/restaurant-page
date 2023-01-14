@@ -10,7 +10,7 @@ export const Header = () => {
         <h1 className={styles["logo"]}>Dr. Low Carb</h1>
             <nav>
                 <HeaderLinkPanel />
-                <span className={styles["delivery-btn"]}><Link to="/delivery">DELIVERY & RESERVATION</Link></span>
+                <span className={styles["delivery-btn"]}><Link to="/delivery">DELIVERY</Link></span>
             </nav>
         </header>
     );
