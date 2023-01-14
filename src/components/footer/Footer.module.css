@@ -3,9 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-self: flex-end;
 
     padding: 0 5rem;
     height: 10vh;
+    width: 100%;
+    box-sizing: border-box;
 
     border-top: 3px solid black;
     background-color: rgb(50, 50, 50);
