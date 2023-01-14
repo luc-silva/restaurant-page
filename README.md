@@ -2,9 +2,6 @@
 # restaurant_page
 Restaurant page made by me as a project for The Odin Project curriculum.
 
-## Assignment
-- Start the project the same way you began the webpack tutorial project.
-run npm init in your project directory to generate a package.json file.
 ## Images
 
 
