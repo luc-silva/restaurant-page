@@ -51,7 +51,7 @@ export const Home = () => {
         <section className="homepage">
             <div className={styles["home-background"]}>
                 <div className={styles["home-welcome"]}>
-                    <h2>Welcome to the Low Carbs Clinic!</h2>
+                    <h2>Welcome to the Dr. Low Carbs!</h2>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Consequuntur ipsum fuga quia cum quaerat, exercitationem,
                     unde tempore doloribus nemo provident quibusdam pariatur
