@@ -15,7 +15,7 @@ export const NotFound = () => {
                     </div>
                 </div>
 
-                <p>We can't find the page you are looking for.</p>
+                <p>We couldn't find the page you are looking for :(</p>
             </div>
 
             <button>

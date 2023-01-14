@@ -9,7 +9,7 @@ export const DeliveryForm = () => {
                 <input type="text" placeholder="Your name" />
                 <input type="text" placeholder="Email" />
                 <input type="text" placeholder="Address" />
-                <button>Request free low carb suply!</button>
+                <button>Request free low carb supply!</button>
             </div>
             <div className={styles["delivery-text"]}>
                 <h2>Request free stuff right now!</h2>

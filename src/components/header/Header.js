@@ -1,16 +1,20 @@
 import React, { Component } from "react";
-import {HeaderLinkPanel} from "./HeaderLinkPanel";
+import { HeaderLinkPanel } from "./HeaderLinkPanel";
 import { Link } from "react-router-dom";
 
-import styles from "./Header.module.css"
+import styles from "./Header.module.css";
 
 export const Header = () => {
     return (
         <header>
-        <h1 className={styles["logo"]}>Dr. Low Carb</h1>
+            <Link to="/">
+                <h1 className={styles["logo"]}>Dr. Low Carbs</h1>
+            </Link>
             <nav>
                 <HeaderLinkPanel />
-                <span className={styles["delivery-btn"]}><Link to="/delivery">DELIVERY</Link></span>
+                <span className={styles["delivery-btn"]}>
+                    <Link to="/delivery">DELIVERY</Link>
+                </span>
             </nav>
         </header>
     );
