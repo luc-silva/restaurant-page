@@ -7,16 +7,18 @@ import { Dishes } from "./components/dishes/Dishes";
 import { AboutUs } from "./components/about-us/AboutUs";
 import { Delivery } from "./components/delivery/Delivery";
 import { Footer } from "./components/footer/Footer";
+import { NotFound } from "./components/notfound/NotFound";
 
 const App = () => {
     return (
         <Router id="app">
-            <Header/>
+            <Header />
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route path="/dishes" element={<Dishes />}/>
+                <Route path="/dishes" element={<Dishes />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/delivery" element={<Delivery />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
         </Router>
