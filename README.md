@@ -1,6 +1,21 @@
 # Restaurant Page Project
 Restaurant page made by me as a project for The Odin Project curriculum.
 
+## How to test
+  1. Download project repository:
+  `` git clone https://github.com/luc-silva/restaurant-page.git ``
+  
+  2. Move to repository folder:
+  `` cd home/[user]/[location]/restaurant-page ``
+  
+  3. Install dependencies:
+  `` npm install ``
+  
+  4. Start localhost server:
+  `` npm start ``
+
+
+
 ## Images
 ![restaurant-page (6)](https://user-images.githubusercontent.com/100732316/212479389-d36a2a11-fa1f-4e3a-be10-8d91c63493f2.png)
 ![restaurant-page (1)](https://user-images.githubusercontent.com/100732316/212479391-39d7a85b-f58e-4ca6-88e7-0972a2747990.png)
